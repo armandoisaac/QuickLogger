@@ -1,8 +1,9 @@
-#QuickLogger
+# QuickLogger
+
 Welcome to the QuickLogger project. This project has been built to add logging functionality to your application in an easy and simple way. This project allows you to output your logs to the Console or a File with a simple configuration. You will also be able to create your own storage using the ILogStorage interface.
 
-#How to use this package
-###Installing the nuget package
+# How to use this package
+### Installing the nuget package
 
 The QuickLogger project has it's own package that can be downloaded and installed from your project using the Nuget package.
 
@@ -10,7 +11,7 @@ To install QuickLogger, run the following command in the Package Manager Console
 
     PM> Install-Package QuickLogger
 
-###Creating an instance of the logger
+### Creating an instance of the logger
 
 The **LoggerBuilder** class allows you to create all the required configuration that the Logger class needs in order to work properly.
 
@@ -37,7 +38,7 @@ Once configured, you will be able to build the Logger. This will return a Logger
 
     var logger = logBuilder.Build();
 
-###Adding a message to the log
+### Adding a message to the log
 
 The **QuickLogger** package allows you to store five different types of log: 
 
@@ -66,7 +67,7 @@ The Logger class contains several methods, as well method overrides that allows 
     
     logger.Fatal("Fatal message", new FatalException());
 
-###Using the ConsoleStorage
+### Using the ConsoleStorage
 
 The **ConsoleStorage** class allows you to output your log messages to the console. The messages will display a different foreground color depending on the type of the log. You can use the LoggerBuilder.WithStorage method to add the ConsoleStorage as an storage for your messages.
 
