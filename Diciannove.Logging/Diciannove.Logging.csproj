@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.4</TargetFramework>
+    <PackageId>QuickLogger</PackageId>
+    <Authors>Armando Ruiz</Authors>
+    <Company>DiciannoveSolutions</Company>
+    <Product>QuickLogger</Product>
+    <Description>This project has been built to add logging functionality to your application in an easy and simple way. This project allows you to output your logs to the Console or a File with a simple configuration. You will also be able to create your own storage using the ILogStorage interface.</Description>
+    <PackageLicenseUrl>https://www.gnu.org/licenses/gpl-3.0.en.html</PackageLicenseUrl>
+    <PackageTags>logging, file logging, console logging</PackageTags>
+    <PackageProjectUrl>https://github.com/armandoisaac/QuickLogger</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/armandoisaac/QuickLogger</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
